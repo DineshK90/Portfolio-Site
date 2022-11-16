@@ -1,0 +1,32 @@
+:root{
+    --background: #F5FEF6;
+    --text-primary: #000;
+    --text-secondary: #22DE73;
+    --tag-color: #eee;
+    --button-bg-color: #e2e2e2;
+    --footer-color: #888;
+    --contact-item-bg: #eee;
+}   
+
+.App{
+    height: max-content;
+    background-color: var(--background);
+    -webkit-transition: background-color .3s ease-out;
+    -moz-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+}
+
+#dark{
+    --background: #171316;
+    --text-primary: #fff;
+    --text-secondary: #0f9b4c;
+    --tag-color: #444;
+    --button-bg-color: #e2e2e2;
+    --footer-color: #666;
+    --contact-item-bg: #2B292B;
+}
+
+a{
+    text-decoration: none;
+}

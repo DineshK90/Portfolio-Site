@@ -1,0 +1,49 @@
+.main{
+    padding-bottom: 48px;
+
+    color: var(--text-primary);
+    display: flex;
+    margin-top: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-info{
+    font-size: 16px;
+}
+
+.info-text{
+    font-size: 26px;
+}
+
+.info-name{
+    color: #22DE73;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.main-image{
+    height: 400px;
+}
+
+
+@media only screen and (max-width: 720px) {
+
+    .main-image{
+        height: 280px;
+    }
+    .info-text{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+}

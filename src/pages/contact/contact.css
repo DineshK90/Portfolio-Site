@@ -1,0 +1,114 @@
+.ContactSectionStyle{
+    padding: 5rem 18px;  
+    margin-top: -1rem;
+}
+
+.contactSection__wrapper {
+    display: flex;
+    gap: 5rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+    position: relative;
+  }
+  .contactSection__wrapper::after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 50%;
+    background-color: #eee;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .contact-title{
+    color: var(--text-primary);
+  }
+
+  .ItemStyles{
+    padding: 1.4rem;
+    background-color: var(--contact-item-bg);
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+
+  .ItemStyles .icon{
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+
+  .left {
+    width: 100%;
+    max-width: 500px;
+  }
+  .right {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 12px;
+    /* padding-left: 3rem; */
+  }
+
+  .FormStyle{
+    width: 100%;
+  }
+
+  .form-group {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .form-group label {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+  }
+  input,
+  textarea {
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: var(--text-primary);
+    background-color: var(--contact-item-bg);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+  textarea {
+    min-height: 250px;
+    resize: vertical;
+  }
+  button[type='submit'] {
+    background-color: var(--contact-item-bg);
+    color: var(--text-primary);
+    font-size: 1.4rem;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .contactSection__wrapper {
+      flex-direction: column;
+    }
+    .contactSection__wrapper::after {
+      display: none;
+    }
+    .left,
+    .right {
+      max-width: 100%;
+    }
+    .form-group{
+        width: 90%;
+    }
+  }

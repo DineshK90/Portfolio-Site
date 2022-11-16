@@ -1,0 +1,12 @@
+.education{
+    margin-top: 24px;
+    color: var(--text-primary);
+}
+
+.edu-date{
+    color: #4A5568;
+}
+
+.edu-card{
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,19 @@
+.social-contact{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+}
+
+.social-icon-div{
+    padding: 4px;
+    cursor: pointer;
+    margin: 0 6px 0 0;
+}
+
+.social-icon{
+    color: var(--text-primary);
+    font-size: 30px;
+}

@@ -1,0 +1,12 @@
+.experience{
+    margin-top: 24px;
+    color: var(--text-primary);
+}
+
+.exp-date{
+    color: #4A5568;
+}
+
+.exp-card{
+    margin-bottom: 2rem;
+}

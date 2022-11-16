@@ -1,0 +1,61 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    position: relative;
+    align-items: center;
+    padding: 12px;
+}
+
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menu-icon{
+    font-size: 24px;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.web-menu{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    font-size: 30px;
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+.logo a{
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.logo a:visited{
+    color: var(--text-primary);
+}
+
+@media only screen and (max-width: 830px) {
+    .mobile-menu{
+        display: flex;
+    }
+    .web-menu{
+        display: none;
+    }
+    .logo{
+        font-size: 24px;
+    }
+}
+
+
+.switch-icon{
+    display: flex;
+}

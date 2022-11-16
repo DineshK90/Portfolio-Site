@@ -1,0 +1,14 @@
+.body{
+    padding: 12px 12px 36px 12px;
+}
+
+.flex-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 720px){
+    .flex-section{
+        flex-direction: column;
+    }
+}
