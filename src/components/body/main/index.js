@@ -15,7 +15,7 @@ const Main = () => {
             <SocialContact />
           </div>
           <p style={{maxWidth: '80%', margin: '0 auto'}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor dignissim sapien, eget aliquam nisl accumsan in. Curabitur cursus ipsum eu leo viverra, vitae iaculis dolor suscipit. Sed malesuada dolor vitae sollicitudin sollicitudin. Aliquam bibendum egestas elit, at facilisis diam vulputate id.
+             Software Engineer building dreams one line at a time
           </p>
          
         </div>
