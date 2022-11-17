@@ -21,8 +21,8 @@ export const SkillsData = [
     },
     {
         id: 5,
-        name: 'MySQL',
-        icon: <i className="devicon-mysql-plain-wordmark colored"></i>
+        name: 'PostgreSQL',
+        icon: <i className="devicon-postgresql-plain-wordmark"></i>
     },
     {
         id: 6,
